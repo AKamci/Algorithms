@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Algorithms.Test/LinearSearch.Tests/bin/Debug/net8.0
+/Algorithms.Test/LinearSearch.Tests/obj
+/Algorithms/LinearSearch/bin/Debug/net8.0
+/Algorithms/LinearSearch/obj/Debug/net8.0
+/Algorithms/LinearSearch/obj
