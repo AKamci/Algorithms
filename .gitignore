@@ -58,3 +58,8 @@ bin/
 /Algorithms.Test/BinarySearch.Tests/obj/BinarySearch.Tests.csproj.nuget.dgspec.json
 /Algorithms.Test/BinarySearch.Tests/obj/project.assets.json
 /Algorithms.Test/BinarySearch.Tests/obj/project.nuget.cache
+/Algorithms/BinarySearch/obj/Debug/net8.0/BinarySearch.assets.cache
+/Algorithms/BinarySearch/obj/BinarySearch.csproj.nuget.dgspec.json
+/Algorithms/BinarySearch/obj/project.assets.json
+/Algorithms/BinarySearch/obj/project.nuget.cache
+/Algorithms/BinarySearch/obj/Debug/net8.0/BinarySearch.GeneratedMSBuildEditorConfig.editorconfig
