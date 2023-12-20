@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinearSearch.Tests", "Algor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySearch", "Algorithms\BinarySearch\BinarySearch.csproj", "{6D0EBA5E-78A2-42C3-8FF5-34DFDC11C411}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearch.Tests", "Algorithms.Test\BinarySearch.Tests\BinarySearch.Tests.csproj", "{B113F7D5-B7B3-46F7-981B-764DE396DAD1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearch.Tests", "Algorithms.Test\BinarySearch.Tests2\BinarySearch.Tests.csproj", "{BB07F78C-E77F-4809-800F-EC0228AC4D43}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,10 +33,10 @@ Global
 		{6D0EBA5E-78A2-42C3-8FF5-34DFDC11C411}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D0EBA5E-78A2-42C3-8FF5-34DFDC11C411}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D0EBA5E-78A2-42C3-8FF5-34DFDC11C411}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B113F7D5-B7B3-46F7-981B-764DE396DAD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B113F7D5-B7B3-46F7-981B-764DE396DAD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B113F7D5-B7B3-46F7-981B-764DE396DAD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B113F7D5-B7B3-46F7-981B-764DE396DAD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB07F78C-E77F-4809-800F-EC0228AC4D43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB07F78C-E77F-4809-800F-EC0228AC4D43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB07F78C-E77F-4809-800F-EC0228AC4D43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB07F78C-E77F-4809-800F-EC0228AC4D43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,7 +45,7 @@ Global
 		{D8E9CB75-32E2-4571-B71B-30A003C1DA18} = {FA26398B-AAB6-4BB2-9C23-B5E213B39D99}
 		{BC6FBF2C-7931-4303-8EBA-91AEB01F9B24} = {B79D2F96-C15B-4CD3-ADFD-E4FF2BBC8114}
 		{6D0EBA5E-78A2-42C3-8FF5-34DFDC11C411} = {FA26398B-AAB6-4BB2-9C23-B5E213B39D99}
-		{B113F7D5-B7B3-46F7-981B-764DE396DAD1} = {B79D2F96-C15B-4CD3-ADFD-E4FF2BBC8114}
+		{BB07F78C-E77F-4809-800F-EC0228AC4D43} = {B79D2F96-C15B-4CD3-ADFD-E4FF2BBC8114}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EDE0FBFC-5EC5-429E-92E4-A6821D003C1A}

@@ -9,5 +9,12 @@
 /Algorithms/LinearSearch/obj
 /.vs/
 obj
+obj/*
+obj\*
 /.vs
 .vs
+.vs\
+.vs\*
+.vs/*
+bin\
+bin/
