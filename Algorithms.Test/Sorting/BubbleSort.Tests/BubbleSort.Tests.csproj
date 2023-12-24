@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Algorithms\Searching\LinearSearch\LinearSearch.csproj" />
+    <ProjectReference Include="..\..\..\Algorithms\Sorting\BubbleSort\BubbleSort.csproj" />
   </ItemGroup>
 
 </Project>

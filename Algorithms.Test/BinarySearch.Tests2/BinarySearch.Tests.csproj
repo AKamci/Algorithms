@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Algorithms\BinarySearch\BinarySearch.csproj" />
+    <ProjectReference Include="..\..\Algorithms\Searching\BinarySearch\BinarySearch.csproj" />
   </ItemGroup>
 
 </Project>
