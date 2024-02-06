@@ -10,10 +10,9 @@ namespace MergeSort.Tests
             Array.Copy(unSortedArr, oldArr, 7);
 
             MergeSort mergeSort = new MergeSort();
-            mergeSort.sort(unSortedArr, 0, unSortedArr.Length - 1);
+            mergeSort.Sort(unSortedArr, 0, unSortedArr.Length - 1);
             
             Assert.NotEqual(oldArr, unSortedArr);
-
         }
     
 

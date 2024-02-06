@@ -2,20 +2,20 @@
 {
     public class MergeSort
     {
-        public void merge(int[] arr, int l, int m, int r)
+        public void Merge(int[] arr, int left, int middle, int right)
         {
-            int n1 = m - l + 1;
-            int n2 = r - m;
+            int n1 = middle - left + 1;
+            int n2 = right - middle;
             int[] L = new int[n1];
             int[] R = new int[n2];
             int i, j;
             for (i = 0; i < n1; ++i)
-                L[i] = arr[l + i];
+                L[i] = arr[left + i];
             for (j = 0; j < n2; ++j)
-                R[j] = arr[m + 1 + j];
+                R[j] = arr[middle + 1 + j];
             i = 0;
             j = 0;
-            int k = l;
+            int k = left;
             while (i < n1 && j < n2)
             {
                 if (L[i] <= R[j])
@@ -43,14 +43,14 @@
                 k++;
             }
         }
-        public void sort(int[] arr, int l, int r)
+        public void Sort(int[] arr, int left, int right)
         {
-            if (l < r)
+            if (left < right)
             {
-                int m = l + (r - l) / 2;
-                sort(arr, l, m);
-                sort(arr, m + 1, r);
-                merge(arr, l, m, r);
+                int middle = left + (right - left) / 2;
+                Sort(arr, left, middle);
+                Sort(arr, middle + 1, right);
+                Merge(arr, left, middle, right);
             }
         }
     }
